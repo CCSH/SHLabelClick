@@ -17,7 +17,7 @@
 
 @implementation TableViewController
 
-static NSString *const content = @"QWERTYUI欧帕斯对方 过后就看 了子线程VB你们收 款点击哪里文件你 12345 67890 qwert yuiopasd fghjklz xcvbnm才能前往IP恩赐陪我企鹅怒词谱呢往前二批UN前往";
+static NSString *const content = @"阿松的海景房abcdefghijklmnopqrstuvwxy结婚的高发杉本繁郎火213472013sadf我被批好闻哦内存三次吧类型国产赛跑堵车比USA的撒开了短发后撒电话发菩我和谁都烦死了都快分";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -87,7 +87,9 @@ static NSString *const content = @"QWERTYUI欧帕斯对方 过后就看 了子�
         
         if (obj) {
             
-            NSLog(@"第%ld个 === 参数:%@",(long)textView.tag,obj.parameter);
+            //内容回调
+            UIAlertView *ale = [[UIAlertView alloc]initWithTitle:@"点击响应" message:[NSString stringWithFormat:@"第%ld个\n参数:%@",(long)textView.tag,obj.parameter] delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil, nil];
+            [ale show];
         }else{
             NSLog(@"第%ld个 === 点击了空白位置",(long)textView.tag);
         }
