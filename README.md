@@ -3,4 +3,3 @@
 # 不同的点击位置可以单独设置属性
 >[`基于TextView代码`](https://github.com/CCSH/SHClickTextView)
 >[`基于Label代码`](https://github.com/CCSH/SHLabel)
-![image](https://github.com/CCSH/SHLabelClick/blob/master/QQ20180613-101706-HD.gif)
